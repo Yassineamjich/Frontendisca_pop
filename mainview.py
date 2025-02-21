@@ -44,7 +44,7 @@ controlcategorie = controllers.controllerCategoria.ControllerCategory(session, a
 controlDonation   = controllers.controllerDonation.ControllerDonation(session, api_url)
 controlitems      = controllers.controllerItem.ControllerItem(session, api_url)
 controllocation   = controllers.controllerLocation.ControllerLocation(session, api_url)
-
+print("\\\The application is starting///")
 while True:
     print("\n==== Main Menu ====")
     print("** GET Operations **")
